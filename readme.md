@@ -17,7 +17,7 @@
 
 
 ## General Information
-- ![Example screenshot](https://play-lh.googleusercontent.com/g6IsfSZlxGLinzisCUqp3MaxqkoKbgwRch-9u_bryQS-XYiMlDb5uHCxQ-LCDgpNv4Y)
+- ![SnakeIcon](https://play-lh.googleusercontent.com/g6IsfSZlxGLinzisCUqp3MaxqkoKbgwRch-9u_bryQS-XYiMlDb5uHCxQ-LCDgpNv4Y)
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
@@ -31,9 +31,9 @@
 
 ## Features
 List the ready features here:
-- Dedicated website: Game will be displayed on its own website. Related stories are exporting the game in unity and creating the website.
-- Playable Game: Able to move snake around an environment. Related stories are learning how to code in unity and learning how to create game environements in unity.   
-- Different Playable Snake Characters: Will look different and play different. Related stories are costumes and characters. 
+> - Dedicated website: Game will be displayed on its own website. Related stories are exporting the game in unity and creating the website.
+> - Playable Game: Able to move snake around an environment. Related stories are learning how to code in unity and learning how to create game environements in unity.   
+> - Different Playable Snake Characters: Will look different and play different. Related stories are costumes and characters. 
 
 
 ## Screenshots
