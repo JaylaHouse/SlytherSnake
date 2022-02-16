@@ -17,7 +17,7 @@
 
 
 ## General Information
-- (https://play-lh.googleusercontent.com/g6IsfSZlxGLinzisCUqp3MaxqkoKbgwRch-9u_bryQS-XYiMlDb5uHCxQ-LCDgpNv4Y)
+- ![Example screenshot](https://play-lh.googleusercontent.com/g6IsfSZlxGLinzisCUqp3MaxqkoKbgwRch-9u_bryQS-XYiMlDb5uHCxQ-LCDgpNv4Y)
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
