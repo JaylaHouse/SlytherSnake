@@ -1,5 +1,5 @@
 # Slyther Snake
-> Discription: Our software engineering team: {Leo Carmona, Jayla House, Steve Tchagou, Shizene --?, Lauren Taylor } Our project is a fun to play game, where the player is a snake and has to navigate through different level environments trying to get to the end while doging enemies and obstacles. We have decided to take on this project because as a team we beleive it will be a fun project while still challenging to where we will all learn something new by the end. 
+> Discription: Our software engineering team: Leo, Jayla , Steve , Shizene , Lauren. Our project is a fun to play game, where the player is a snake and has to navigate through different level environments trying to get to the end while doging enemies and obstacles. We have decided to take on this project because as a team we beleive it will be a fun project while still challenging to where we will all learn something new by the end. 
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
@@ -78,7 +78,7 @@ Give credit here.
 
 
 ## Contact
-Creaters: Lauren Taylor, Shizene Maredia, 
+Creaters: Leo, Jayla , Steve , Shizene , Lauren 
 
 
 <!-- Optional -->
