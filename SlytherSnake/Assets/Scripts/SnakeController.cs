@@ -5,7 +5,7 @@ using UnityEngine;
 public class SnakeController : MonoBehaviour
 {
     //Settings
-    public float BodySpeed = 0.1f;
+    public float BodySpeed = 1f;
     public int Gap = 10;
 
     // References
@@ -20,10 +20,6 @@ public class SnakeController : MonoBehaviour
         //making snake parts spawn at different times 
         Invoke("GrowSnake", 1);
         Invoke("GrowSnake", 2);
-        Invoke("GrowSnake", 3);
-        Invoke("GrowSnake", 4);
-        Invoke("GrowSnake", 5);
-        Invoke("GrowSnake", 6);
         
     }
 
@@ -43,7 +39,7 @@ public class SnakeController : MonoBehaviour
 
             // Move body towards the point along the snakes path
             Vector3 moveDirection = point - body.transform.position;
-            //body.transform.position += moveDirection * BodySpeed * Time.deltaTime;        //original code but wasnt working for me
+
             //beginning of change 
             body.transform.Translate(moveDirection * BodySpeed);
             //end of change 
@@ -72,7 +68,6 @@ public class SnakeController : MonoBehaviour
 
             Vector3 spherePos = transform.position;
             spherePos.y = 0;
-            //characterMarkerMat.SetVector("Vector3_337113A", spherePos);
         }
     }
     private void GrowSnake()
@@ -81,5 +76,14 @@ public class SnakeController : MonoBehaviour
         // add it to the list
         GameObject body = Instantiate(BodyPrefab);
         BodyParts.Add(body);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("PickUp"))
+        {
+            Destroy(other.gameObject);
+            GrowSnake();
+        }
     }
 }
