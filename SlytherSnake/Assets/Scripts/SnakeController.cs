@@ -80,7 +80,7 @@ public class SnakeController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("PickUp"))
+        if (other.gameObject.CompareTag("pickUp"))
         {
             Destroy(other.gameObject);
             GrowSnake();
