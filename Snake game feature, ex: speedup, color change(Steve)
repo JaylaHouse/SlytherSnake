@@ -1,0 +1,130 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SnakeController : MonoBehaviour
+{
+    //Settings
+    public float BodySpeed;
+    public int Gap;
+    public float speed;
+    Color newColor;
+    Renderer rend;
+    //Renderer Brend;
+
+
+
+    // References
+    public GameObject BodyPrefab;
+    //[SerializeField] private Material myMaterial;
+
+
+    // Lists
+    private List<GameObject> BodyParts = new List<GameObject>();
+    private List<Vector3> PositionsHistory = new List<Vector3>();
+
+    void Start()
+    {
+        //making snake parts spawn at different times 
+        Invoke("GrowSnake", 1);
+        Invoke("GrowSnake", 2);
+        BodySpeed = 1f;
+        Gap = 10;
+        speed = 0.1f;
+        rend = GetComponent<Renderer>();
+        //Brend = GameObject.FindGameObjectWithTag("BodyPart").GetComponent<Renderer>();
+        newColor = Color.blue;
+    }
+
+    void Update()
+    {
+
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+
+        // Store position history
+        PositionsHistory.Insert(0, transform.position);
+
+        // Move body parts
+        int index = 0;
+        foreach (var body in BodyParts)
+        {
+            Vector3 point = PositionsHistory[Mathf.Clamp(index * Gap, 0, PositionsHistory.Count - 1)];
+
+            // Move body towards the point along the snakes path
+            Vector3 moveDirection = point - body.transform.position;
+
+            //beginning of change 
+            body.transform.Translate(moveDirection * BodySpeed);
+            //end of change 
+
+            // Rotate body towards the point along the snakes path
+            body.transform.LookAt(point);
+
+            index++;
+        }
+
+        
+
+        if (Physics.Raycast(ray, out hit))
+        {
+            Vector3 mousePos = hit.point;
+
+            Vector3 dir = hit.point - transform.position;
+            dir.y = 0;
+
+            //float speed = 0.1f;
+            if (dir.magnitude > speed)
+            {
+                dir.Normalize();
+                transform.Translate(dir * speed);
+            }
+
+            Vector3 spherePos = transform.position;
+            spherePos.y = 0;
+        }
+
+        //transform.Translate(Vector3.forward * Time.deltaTime * BodySpeed);
+    }
+    private void GrowSnake()
+    {
+        // Instantiate body instance and
+        // add it to the list
+        GameObject body = Instantiate(BodyPrefab);
+        BodyParts.Add(body);
+    }
+
+   
+
+    private void OnTriggerEnter(Collider other)
+    {
+
+        // Make the body grow after getting the pickups
+        //BodySpeed = BodySpeed + 1;
+        if(other.gameObject.CompareTag("SpeedBooster"))
+        {
+            speed = speed * 2;
+            Destroy(other.gameObject);
+            GrowSnake();
+        }
+
+        if (other.gameObject.CompareTag("ColorChanger"))
+        {
+            rend.material.color = newColor;
+            //Brend.material.color = newColor;
+            Destroy(other.gameObject);
+            GrowSnake();
+        }
+
+
+        if (other.gameObject.CompareTag("pickUp"))
+        {
+     
+            Destroy(other.gameObject);
+            GrowSnake();
+        }
+
+    }
+  
+
+}
