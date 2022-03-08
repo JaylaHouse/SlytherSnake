@@ -1,6 +1,12 @@
 # Slyther Snake
-> Discription: Our software engineering team: Leo, Jayla , Steve , Shizene , Lauren. Our project is a fun to play game, where the player is a snake and has to navigate through different level environments trying to get to the end while doging enemies and obstacles. We have decided to take on this project because as a team we beleive it will be a fun project while still challenging to where we will all learn something new by the end. 
+> ### Description: Our software engineering team: Leo, Jayla, Steve, Shizene, Lauren. 
+> _SlytherSnake_ is a fresh new take on the classic game _Snake_. The player controls a snake from a top-down perspective and must navigate a three-dimensional environment while dodging enemies and obstacles. The game is developed in Unity, and we decided to take this project as a team in order to learn more about Unity, C#, and software engineering principles.
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+
+
+## General Information
+> ![SnakeIcon](https://play-lh.googleusercontent.com/g6IsfSZlxGLinzisCUqp3MaxqkoKbgwRch-9u_bryQS-XYiMlDb5uHCxQ-LCDgpNv4Y)
+<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -16,24 +22,23 @@
 <!-- * [License](#license) -->
 
 
-## General Information
-- ![SnakeIcon](https://play-lh.googleusercontent.com/g6IsfSZlxGLinzisCUqp3MaxqkoKbgwRch-9u_bryQS-XYiMlDb5uHCxQ-LCDgpNv4Y)
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
 
 ## Technologies Used
 - Tech 1 - BitBucket
 - Tech 2 - GitKraken
 - Tech 3 - Unity
-- Tech 4 - circle ci
-- Tech 5 - React
+- Tech 4 - CircleCi
+- Tech 5 - Bootstrap5
 
 
 ## Features
 List the ready features here:
-> - Dedicated website: Game will be displayed on its own website. Related stories are exporting the game in unity and creating the website.
-> - Playable Game: Able to move snake around an environment. Related stories are learning how to code in unity and learning how to create game environements in unity.   
-> - Different Playable Snake Characters: Will look different and play different. Related stories are costumes and characters. 
+### Dedicated Website: 
+> - The game will be shared on its own website. Using Bootstrap5 as the framework, it will include information about the game, not limited to: how to play the game, the rules, and information on the power ups. Related stories are exporting the game in unity and creating the website.
+### Revamped Snake: 
+> - SlytherSnake will be a new and imporved take on the original snake game. With three dimensional elements, customizability, enemies to dodge, and powerups, it will certainly offer new gameplay. Related stories are learning how to code in unity and learning how to create game environements in Unity.   
+### Different Playable Snake Characters: 
+> - With at least two different options of different SlytherSnakes, each snake will look and play slightly different. Related stories are costumes and characters. 
 
 
 ## Screenshots
@@ -55,20 +60,53 @@ Provide various use cases and code examples here.
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
+### Project is: _in progress_
+>- We are currently at the end of Sprint 1 and will demo our initial build. 
 
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+> - Improvement to be done 1
+> - Improvement to be done 2
 
 To do:
-- Feature to be added 1
-- Feature to be added 2
+> - Feature to be added 1
+> - Feature to be added 2
+___
 
+## Sprint 1
+
+### Individual Contributions
+#### Leonardo:
+> - Familiarize with Unity and C# [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/b7afac5f10fbabb07ccbbe7f0982cf4e23edc2ec)
+> - Design basic game environment. This will be our starter environment in which we will demo any contributions. [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/f6c21eb1d308cad73d5ca952f7333440186ffaec) [commit2](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/30697adec162120eaacc725e194e37dd1413dae8).
+> - Study HTML and Bootsrap, this will be template website we use. [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/0e0a494371286c49afed6fd86dca8b76884dca07)
+> - Study React and implement basic React features. [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/324edee9b3f1b6b022b6125b3b322c4e9620bf8a)
+> - Modify Starter Bootstrap Website. Modified website to better suit hosting the game. [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/cd4ed97c17e5a974fa02b7f1faf3a438f6e55f2d)
+
+___
+
+## SPRINT 2: Next Steps
+
+
+### Leonardo:
+> - Create at least two more sophisticated levels that will be utilized in the actual game. Consider using video game level design principles.
+> - Fully migrate a version of the game to be playable on the website
+> - Implement a feature of completing level one, then being sent to level2
+
+### name:
+> - insert
+
+### name:
+> - insert
+
+### name:
+> - insert
+
+### name:
+> - insert
+___
 
 ## Acknowledgements
 Give credit here.

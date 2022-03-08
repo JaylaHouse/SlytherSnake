@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlytherSnakeGame</title>
+    <style>
+        img {
+            width: 200px;
+            border-radius: 100px;
+            margin-right: 20px;
+        }
+        p {
+            position: bo;
+        }
+        
+       
+        body {
+            background-image: url('/images/snake2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h1 style="color: yellow"><center> SlytherSnakeGame </center> </h1>
+        <center><img src="/images/snake2.jpg"></center>
+
+    <h2 style="color: yellow"><a href="https://www.google.com"; style="color: yellow"><center>START GAME</center></a></h2>
+    <h2 style="color: yellow"><a href="https://www.google.com"; style="color: yellow"><center>TRAINING</center></a></h2>
+    <h2 style="color: yellow"><a href="https://www.google.com"; style="color: yellow"><center>SETTINGS</center></a></h2>
+    <h2 style="color: yellow"><a href="https://www.google.com"; style="color: yellow"><center>EXIT</center></a></h2>
+    <p style="color: yellow; position: fixed; top: 660px;">Author: Steve Tchagou</p>
+    
+    
+    
+</body>
+</html>
