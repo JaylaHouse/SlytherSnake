@@ -85,6 +85,12 @@ ___
 > - Study React and implement basic React features. [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/324edee9b3f1b6b022b6125b3b322c4e9620bf8a)
 > - Modify Starter Bootstrap Website. Modified website to better suit hosting the game. [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/cd4ed97c17e5a974fa02b7f1faf3a438f6e55f2d)
 
+#### Shizene:
+> - Familiarize with unity [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/a467994a3cdcf008c8932ca6834a3432c89b11f3)
+> - Learn javascript and jquery[commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/f5f0d9f0a6b2b7ff8c5fe73c371ff89ecab3160a)
+> - Brush on HTML and CSS [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/dfa85deec062e56d7d907bc8353065d8b49da102)
+> - Learn Boostrap to implement features on the website [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/bd6c21921e530bbfde0b5c44d278c9436d7fed62)
+> - Learn to create basic [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/f5778951f0d1c662a11fd18983b092ff1de2fbe0) 
 ___
 
 ## SPRINT 2: Next Steps
