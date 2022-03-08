@@ -91,6 +91,14 @@ ___
 > - Brush on HTML and CSS [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/dfa85deec062e56d7d907bc8353065d8b49da102)
 > - Learn Boostrap to implement features on the website [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/bd6c21921e530bbfde0b5c44d278c9436d7fed62)
 > - Learn to create basic [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/f5778951f0d1c662a11fd18983b092ff1de2fbe0) 
+
+### Lauren: 
+> - SNAK-14 Brush up on Javascript and JQuery. <a href="https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/68626edd784cf4259eb7172ce808892fe94bda4f">(Commit)</a> 
+> - SNAK-18 Brush up on HTML and Bootstrap. <a href="https://bitbucket.org/cs3398-s22-cardassians/slythersnake/src/SnakeGame-docs-llt31/SNAK-14-brush-up-on-javascript-and-jquery">(Commit)</a> 
+> - SNAK-22 Get familiar with basic concepts of Unity and C#. <a href="https://bitbucket.org/cs3398-s22-cardassians/slythersnake/src/SnakeGame-docs-llt31/SNAK-22-get-familiar-with-basic-concepts.md">(Commit)</a>
+> - SNAK-25 Familiarize with React and its basic features. <a href="https://bitbucket.org/cs3398-s22-cardassians/slythersnake/src/SnakeGame-docs-llt31/SNAK-25-familiarize-with-react">(Commit)</a>
+> - SNAK-28 Help Design Basic Character Options. <a href="https://bitbucket.org/cs3398-s22-cardassians/slythersnake/src/leonardo/SNAK-28-help-design-basic-character-options">(Commit)</a>
+
 ___
 
 ## SPRINT 2: Next Steps
@@ -107,11 +115,15 @@ ___
 > - Add a kill feature for the snake. If the snake hits certain walls of the game it dies if there are no lives.
 > - Create more attractive powerups which a player can distinguish from one another. 
 
-### name:
-> - insert
+### Lauren:
+> - Customize snake and create character options for snake skins
+> - Assist with building the website for the snake game using BootStrap
+> - Integrate unit testing
+ 
 
 ### name:
 > - insert
+___
 
 ### name:
 > - insert
