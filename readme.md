@@ -99,6 +99,12 @@ ___
 > - SNAK-25 Familiarize with React and its basic features. <a href="https://bitbucket.org/cs3398-s22-cardassians/slythersnake/src/SnakeGame-docs-llt31/SNAK-25-familiarize-with-react">(Commit)</a>
 > - SNAK-28 Help Design Basic Character Options. <a href="https://bitbucket.org/cs3398-s22-cardassians/slythersnake/src/leonardo/SNAK-28-help-design-basic-character-options">(Commit)</a>
 
+### Steve:
+> - Basic Unity tutorial learning [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/c90a3e6bbdb65955241005f36b10ede8d99c2f46)
+> - Basic HTML and CSS learning [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/27b3236b5cb3f9bd1fe6bfcfcfbfefcefa1471b3)
+> - Boostrap and its features learning [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/c63cc334d0e413be935f93e6a54e2826ed7aa945)
+> - Snake game feature implementations. Ex: speedup, color change [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/5b7c4fd9886cceb523021e8060d133fbbfd14b77)
+ 
 ___
 
 ## SPRINT 2: Next Steps
@@ -119,9 +125,11 @@ ___
 > - Customize snake and create character options for snake skins
 > - Assist with building the website for the snake game using BootStrap
 > - Integrate unit testing
- 
 
-### name:
+### Steve:
++> - Explore more power ups that can be implemented in the game.
++> - Improve the color change power up so that it can change the snake whole body.
++> - Implement a stop watch on the speed power up.
 > - insert
 ___
 
