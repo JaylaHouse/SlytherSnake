@@ -130,7 +130,6 @@ ___
 > - Explore more power ups that can be implemented in the game.
 > - Improve the color change power up so that it can change the snake whole body.
 > - Implement a stop watch on the speed power up.
-> - insert
 ___
 
 ### name:
