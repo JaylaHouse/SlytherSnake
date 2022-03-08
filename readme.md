@@ -101,8 +101,11 @@ ___
 > - Fully migrate a version of the game to be playable on the website
 > - Implement a feature of completing level one, then being sent to level2
 
-### name:
-> - insert
+### Shizene: 
+> - Create more realistic looking skin. currently we have a very basic version of snake would like to add skins to the snake to make it look realisitc.
+> - Add a feature to add snake lives, it can only hold up to 3 lifes.
+> - Add a kill feature for the snake. If the snake hits certain walls of the game it dies if there are no lives.
+> - Create more attractive powerups which a player can distinguish from one another. 
 
 ### name:
 > - insert
