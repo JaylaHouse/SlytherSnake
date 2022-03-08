@@ -127,9 +127,9 @@ ___
 > - Integrate unit testing
 
 ### Steve:
-+> - Explore more power ups that can be implemented in the game.
-+> - Improve the color change power up so that it can change the snake whole body.
-+> - Implement a stop watch on the speed power up.
+> - Explore more power ups that can be implemented in the game.
+> - Improve the color change power up so that it can change the snake whole body.
+> - Implement a stop watch on the speed power up.
 > - insert
 ___
 
