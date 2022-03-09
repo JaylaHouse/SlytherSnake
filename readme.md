@@ -105,6 +105,11 @@ ___
 > - Boostrap and its features learning [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/c63cc334d0e413be935f93e6a54e2826ed7aa945)
 > - Snake game feature implementations. Ex: speedup, color change [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/5b7c4fd9886cceb523021e8060d133fbbfd14b77)
  
+### Jayla:
+> - Created basic scene as a template with a ground and player object. [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/eacc736a0a3495d035db3b6c7e2e6669c67f97e3)
+> - Created scripts for snake function grow and move. [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/f6b4e49cf10899107bbd32d4d62a7d96eaf0d230)
+> - Created and configured player prefab. [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/2f6dae991acd4777bc780e54417fe34da7e35731)
+> -  Created Snake Head shape in blender [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/d6ccf44734cd304cffde2c5ad3e4fe6699ebf616)
 ___
 
 ## SPRINT 2: Next Steps
@@ -132,8 +137,10 @@ ___
 > - Implement a stop watch on the speed power up.
 ___
 
-### name:
-> - insert
+### Jayla:
+> - Making the snake character and rigging it with a proper skeleton.
+> - Create Variation in the snake envonment so that there are hazards the player needs to avoid. 
+> - Creating a StartScreen
 ___
 
 ## Acknowledgements
