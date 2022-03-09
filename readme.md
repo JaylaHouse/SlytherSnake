@@ -92,24 +92,63 @@ ___
 > - Learn Boostrap to implement features on the website [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/bd6c21921e530bbfde0b5c44d278c9436d7fed62)
 > - Learn to create basic [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/f5778951f0d1c662a11fd18983b092ff1de2fbe0) 
 
-### Lauren: 
+#### Lauren: 
 > - SNAK-14 Brush up on Javascript and JQuery. <a href="https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/68626edd784cf4259eb7172ce808892fe94bda4f">(Commit)</a> 
 > - SNAK-18 Brush up on HTML and Bootstrap. <a href="https://bitbucket.org/cs3398-s22-cardassians/slythersnake/src/SnakeGame-docs-llt31/SNAK-14-brush-up-on-javascript-and-jquery">(Commit)</a> 
 > - SNAK-22 Get familiar with basic concepts of Unity and C#. <a href="https://bitbucket.org/cs3398-s22-cardassians/slythersnake/src/SnakeGame-docs-llt31/SNAK-22-get-familiar-with-basic-concepts.md">(Commit)</a>
 > - SNAK-25 Familiarize with React and its basic features. <a href="https://bitbucket.org/cs3398-s22-cardassians/slythersnake/src/SnakeGame-docs-llt31/SNAK-25-familiarize-with-react">(Commit)</a>
 > - SNAK-28 Help Design Basic Character Options. <a href="https://bitbucket.org/cs3398-s22-cardassians/slythersnake/src/leonardo/SNAK-28-help-design-basic-character-options">(Commit)</a>
 
-### Steve:
+#### Steve:
 > - Basic Unity tutorial learning [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/c90a3e6bbdb65955241005f36b10ede8d99c2f46)
 > - Basic HTML and CSS learning [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/27b3236b5cb3f9bd1fe6bfcfcfbfefcefa1471b3)
 > - Boostrap and its features learning [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/c63cc334d0e413be935f93e6a54e2826ed7aa945)
 > - Snake game feature implementations. Ex: speedup, color change [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/5b7c4fd9886cceb523021e8060d133fbbfd14b77)
  
-### Jayla:
+#### Jayla:
 > - Created basic scene as a template with a ground and player object. [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/eacc736a0a3495d035db3b6c7e2e6669c67f97e3)
 > - Created scripts for snake function grow and move. [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/f6b4e49cf10899107bbd32d4d62a7d96eaf0d230)
 > - Created and configured player prefab. [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/2f6dae991acd4777bc780e54417fe34da7e35731)
 > -  Created Snake Head shape in blender [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/d6ccf44734cd304cffde2c5ad3e4fe6699ebf616)
+___
+
+## Sprint 1 Retrospective
+
+### What went well?
+
+#### Team:
+- The communication of each task from every team member was very fluid. 
+- Time management was affective, we always found time to meet as a team outside of class.
+- Everyone was very proactive with their tasks and helped each other with the resources.
+- Everyone in the group got along well with each other. 
+- We all have great attitudes when it comes to challenges.
+#### Individual:
+##### Steve:
+-  I was able to manage and create my first unity power up with the help of my team mate Jayla House, and was able to familiarize myself with C Sharp when using Unity. 
+##### Jayla:
+- Using someone else's code and being able to edit it and use it for my game without too much trouble.
+##### Shizene:
+- I was able to get myself familiarize with unity. 
+##### Lauren:
+- learning unity and learning how to make character skins or changes.
+##### Leonardo:
+- Making a game environment for the snake to move around in. 
+### What can I do to improve? 
+##### Steve:
+- Be more familiarized with the use of Unity which will help improve the games power ups
+##### Shizene:
+- I could get more familiar with unity. Also learn blender so I can help Jayla with the objects for the game. 
+##### Leonardo: 
+- Having a clear goal in my mind and visualizing it. I spent too much time thinking instead of simply working. 
+##### Jayla:
+- I could get more familiar with blender so that when transporting from blender to unity things work how they are intended. 
+##### Lauren:
+- be more involved on the coding side of things in the Snake Game, my first sprint was me just getting familiar with everything. As well as getting more familiar with unity.
+
+### What might be impending us from performing better?
+- Our other classes that require a lot of time and energy.
+- Our inexperience with technologies such as Bitbucket and Gitkracken
+
 ___
 
 ## SPRINT 2: Next Steps
