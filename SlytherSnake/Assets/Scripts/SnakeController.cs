@@ -5,11 +5,19 @@ using UnityEngine;
 public class SnakeController : MonoBehaviour
 {
     //Settings
-    public float BodySpeed = 0.1f;
-    public int Gap = 10;
+    public float BodySpeed;
+    public int Gap;
+    public float speed;
+    Color newColor;
+    Renderer rend;
+    //Renderer Brend;
+
+
 
     // References
     public GameObject BodyPrefab;
+    //[SerializeField] private Material myMaterial;
+
 
     // Lists
     private List<GameObject> BodyParts = new List<GameObject>();
@@ -20,15 +28,17 @@ public class SnakeController : MonoBehaviour
         //making snake parts spawn at different times 
         Invoke("GrowSnake", 1);
         Invoke("GrowSnake", 2);
-        Invoke("GrowSnake", 3);
-        Invoke("GrowSnake", 4);
-        Invoke("GrowSnake", 5);
-        Invoke("GrowSnake", 6);
-        
+        BodySpeed = 1f;
+        Gap = 10;
+        speed = 0.1f;
+        rend = GetComponent<Renderer>();
+        //Brend = GameObject.FindGameObjectWithTag("BodyPart").GetComponent<Renderer>();
+        newColor = Color.blue;
     }
 
     void Update()
     {
+
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
@@ -43,7 +53,7 @@ public class SnakeController : MonoBehaviour
 
             // Move body towards the point along the snakes path
             Vector3 moveDirection = point - body.transform.position;
-            //body.transform.position += moveDirection * BodySpeed * Time.deltaTime;        //original code but wasnt working for me
+
             //beginning of change 
             body.transform.Translate(moveDirection * BodySpeed);
             //end of change 
@@ -54,7 +64,7 @@ public class SnakeController : MonoBehaviour
             index++;
         }
 
-        
+
 
         if (Physics.Raycast(ray, out hit))
         {
@@ -63,7 +73,7 @@ public class SnakeController : MonoBehaviour
             Vector3 dir = hit.point - transform.position;
             dir.y = 0;
 
-            float speed = 0.1f;
+            //float speed = 0.1f;
             if (dir.magnitude > speed)
             {
                 dir.Normalize();
@@ -72,8 +82,9 @@ public class SnakeController : MonoBehaviour
 
             Vector3 spherePos = transform.position;
             spherePos.y = 0;
-            //characterMarkerMat.SetVector("Vector3_337113A", spherePos);
         }
+
+        //transform.Translate(Vector3.forward * Time.deltaTime * BodySpeed);
     }
     private void GrowSnake()
     {
@@ -82,4 +93,38 @@ public class SnakeController : MonoBehaviour
         GameObject body = Instantiate(BodyPrefab);
         BodyParts.Add(body);
     }
+
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+
+        // Make the body grow after getting the pickups
+        //BodySpeed = BodySpeed + 1;
+        if (other.gameObject.CompareTag("Speedboost"))
+        {
+            speed = speed * 2;
+            Destroy(other.gameObject);
+            GrowSnake();
+        }
+
+        if (other.gameObject.CompareTag("ColorChanger"))
+        {
+            rend.material.color = newColor;
+            //Brend.material.color = newColor;
+            Destroy(other.gameObject);
+            GrowSnake();
+        }
+
+
+        if (other.gameObject.CompareTag("pickUp"))
+        {
+
+            Destroy(other.gameObject);
+            GrowSnake();
+        }
+
+    }
+
+
 }

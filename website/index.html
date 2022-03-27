@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <title>Frontend Bootcamp</title>
+  </head>
+  <body>
+    <!-- Imporant to keep in mind how size of screen works. -->
+
+    <!-- Topmost navbar, title here -->
+    <nav
+      class="navbar navbar-expand-lg bg-success bg-gradient navbar-dark py-4 fixed-top"
+    >
+      <div class="container">
+        <a href="#" class="navbar-brand">Texas State SWE Spring Project</a>
+
+        <!-- Handles a hamburger icon to display list items -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- List Items displayed at top right of site -->
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">Game Mechanics</a>
+            </li>
+            <li class="nav-item">
+              <a href="#questions" class="nav-link">Questions</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">Creators</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase, has container and uses flex box-->
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Enjoy <span class="text-warning">SlytherSnake</span></h1>
+            <p class="lead my-4">
+              This website will soon be transformed into being something
+              different. It will host our SlytherSnake game soon enough! See you
+              soon!
+            </p>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              How to play the game!
+            </button>
+          </div>
+          <!-- Handles image -->
+          <img
+            class="img-fluid w-50 d-none d-sm-block p-4"
+            src="images/slytherlogo.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-primary text-light p-5">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">Sign up for News on SlytherSnake!</h3>
+
+          <div class="input-group news-input">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your email"
+            />
+            <button
+              class="btn btn-dark btn-lg"
+              type="button"
+              id="button-addon2"
+            >
+              Button
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Where the game will be included! -->
+    <div class="section p-5 bg-dark">
+      <div class="container">
+        <div class="h1 pb-5 text-light">SlytherSnake: The Quest For Sneks</div>
+        <p class="text-light">
+          This will be the location of the unity game! The snake is currently
+          hard at work.
+        </p>
+        <div class="text-center">
+          <img src="images/snake.png" class="rounded-circle" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="p-5" id="learn">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="images/fundamentals.svg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md" p-5>
+            <h2>Learn About game</h2>
+            <p class="lead">
+              SytherSnake is a three dimensional top-down view game that takes
+              its own unique look at the classic game Snake.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+              reprehenderit aperiam non voluptatum sed ab suscipit aliquid sit
+              officia maxime eaque, illum temporibus debitis a quo eum doloribus
+              ea. Necessitatibus?
+            </p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right">Learn More</i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Boxes, columns only exist on medium screens and up -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title mb-3 pt-2">THE QUEST</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus, nostrum rem quaerat officia debitis rerum!
+                </p>
+                <a href="#" class="btn btn-primary">Insert Something</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-square"></i>
+                </div>
+                <h3 class="card-title mb-3 pt-2">POWERUPS</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus, nostrum rem quaerat officia debitis rerum!
+                </p>
+                <a href="#" class="btn btn-dark">Insert Something</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title mb-3 pt-2">THE SNAKE</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus, nostrum rem quaerat officia debitis rerum!
+                </p>
+                <a href="#" class="btn btn-primary">Insert Something</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md" p-5>
+            <h2 style="color: whitesmoke">How does the game work?</h2>
+            <p style="color: white" class="lead">
+              In Slythersnake, you play as a young snake trying to make across a
+              variety of levels. Try your best and you may succeed!
+            </p>
+            <p style="color: white">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+              reprehenderit aperiam non voluptatum sed ab suscipit aliquid sit
+              officia maxime eaque, illum temporibus debitis a quo eum doloribus
+              ea. Necessitatibus?
+            </p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right">Learn More</i>
+            </a>
+          </div>
+          <div class="col-md">
+            <img src="images/react.svg" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="questions" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <!-- Item1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+              >
+                In what language is the game developed in?
+              </button>
+            </h2>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#q"
+            >
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem,
+                repellat aliquam odio alias quasi molestias laboriosam fugit
+                error molestiae laborum quidem esse, sunt quis neque delectus.
+                Minus suscipit soluta commodi repudiandae dolore iure quisquam
+                aliquam. Quae itaque quo laboriosam laborum magni obcaecati
+                assumenda fuga et? Mollitia iusto deleniti eveniet modi.
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two"
+              >
+                What makes your game different from a normla snake game?
+              </button>
+            </h2>
+            <div
+              id="question-two"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#q"
+            >
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem,
+                repellat aliquam odio alias quasi molestias laboriosam fugit
+                error molestiae laborum quidem esse, sunt quis neque delectus.
+                Minus suscipit soluta commodi repudiandae dolore iure quisquam
+                aliquam. Quae itaque quo laboriosam laborum magni obcaecati
+                assumenda fuga et? Mollitia iusto deleniti eveniet modi.
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three"
+              >
+                Did you enjoy learning?
+              </button>
+            </h2>
+            <div
+              id="question-three"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#q"
+            >
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem,
+                repellat aliquam odio alias quasi molestias laboriosam fugit
+                error molestiae laborum quidem esse, sunt quis neque delectus.
+                Minus suscipit soluta commodi repudiandae dolore iure quisquam
+                aliquam. Quae itaque quo laboriosam laborum magni obcaecati
+                assumenda fuga et? Mollitia iusto deleniti eveniet modi.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-four"
+              >
+                What else did you learn?
+              </button>
+            </h2>
+            <div
+              id="question-four"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#q"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+                eum debitis blanditiis quae reiciendis quasi sapiente architecto
+                recusandae voluptatem eos nostrum nemo sint perspiciatis
+                accusamus, libero, eligendi distinctio dolorum ipsum. Velit,
+                itaque eum. Voluptatibus libero quibusdam itaque natus,
+                exercitationem architecto voluptas qui dicta, ad a consectetur
+                cupiditate dolorum nobis aliquam! Excepturi quibusdam
+                accusantium, tempora ad voluptas officiis explicabo repellat
+                dolorum maxime perspiciatis dolorem aliquid dolores nesciunt?
+                Tempora, sit! Aspernatur voluptatum reiciendis recusandae,
+                dolores rerum provident ullam dignissimos perferendis possimus
+                officia voluptate ipsam quas voluptatem beatae fugit eaque cum.
+                Quaerat delectus fuga amet ad recusandae maxime eum eveniet
+                perferendis laboriosam excepturi?
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-five"
+              >
+                What else did you learn?
+              </button>
+            </h2>
+            <div
+              id="question-five"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#q"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+                eum debitis blanditiis quae reiciendis quasi sapiente architecto
+                recusandae voluptatem eos nostrum nemo sint perspiciatis
+                accusamus, libero, eligendi distinctio dolorum ipsum. Velit,
+                itaque eum. Voluptatibus libero quibusdam itaque natus,
+                exercitationem architecto voluptas qui dicta, ad a consectetur
+                cupiditate dolorum nobis aliquam! Excepturi quibusdam
+                accusantium, tempora ad voluptas officiis explicabo repellat
+                dolorum maxime perspiciatis dolorem aliquid dolores nesciunt?
+                Tempora, sit! Aspernatur voluptatum reiciendis recusandae,
+                dolores rerum provident ullam dignissimos perferendis possimus
+                officia voluptate ipsam quas voluptatem beatae fugit eaque cum.
+                Quaerat delectus fuga amet ad recusandae maxime eum eveniet
+                perferendis laboriosam excepturi?
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="instructors" class="p-5 bg-primary">
+      <div class="container">
+        <h2 class="text-center text-white">Our group members!</h2>
+        <p class="lead text-center text-white mb-5">
+          The developers were the following wonderful people. Lorem ipsum dolor
+          sit amet consectetur adipisicing elit. Optio rem, laboriosam soluta
+          corrupti cumque exercitationem!
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/men/3.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Some dude</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Harum, recusandae. Sequi nam repellendus architecto rem.
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/men/3.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Some dude</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Harum, recusandae. Sequi nam repellendus architecto rem.
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/men/3.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Some dude</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Harum, recusandae. Sequi nam repellendus architecto rem.
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/men/3.jpg"
+                  class="rounded-circle mb-3"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Some dude</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Harum, recusandae. Sequi nam repellendus architecto rem.
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Item 5 -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact Info</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location</span> Lorem ipsum dolor
+                sit.
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location</span> Lorem ipsum dolor
+                sit.
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location</span> Lorem ipsum dolor
+                sit.
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location</span> Lorem ipsum dolor
+                sit.
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location</span> Lorem ipsum dolor
+                sit.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2021 SlytherSnake Studios</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="enroll"
+      tabindex="-1"
+      aria-labelledby="enrollLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">
+              Fill out this form and we will create your accocunt.
+            </p>
+            <form action="">
+              <div class="mb-3">
+                <label for="first-name" class="col-form-label"
+                  >first Name:
+                </label>
+                <input type="text" class="form-control" id="first-name" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
