@@ -1,14 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SnakeController : MonoBehaviour
 {
     //Settings
+    /*public float boostTimer;
+    public bool boosting;
+    public bool moving;*/
+    private float speedBoostDuration;
+
     public float BodySpeed;
     public int Gap;
+    public int count;
     public float speed;
     Color newColor;
+    Color newColorR;
     Renderer rend;
     //Renderer Brend;
 
@@ -30,10 +38,16 @@ public class SnakeController : MonoBehaviour
         Invoke("GrowSnake", 2);
         BodySpeed = 1f;
         Gap = 10;
+        count = 1;
         speed = 0.1f;
+        /*boostTimer = 0;
+        boosting = false;
+        moving = false;*/
+        speedBoostDuration = 3;
         rend = GetComponent<Renderer>();
         //Brend = GameObject.FindGameObjectWithTag("BodyPart").GetComponent<Renderer>();
         newColor = Color.blue;
+        newColorR = Color.red;
     }
 
     void Update()
@@ -84,14 +98,40 @@ public class SnakeController : MonoBehaviour
             spherePos.y = 0;
         }
 
+        if(count > 3)
+        {
+            GameOver();
+        }
+
+       
+
         //transform.Translate(Vector3.forward * Time.deltaTime * BodySpeed);
+    }
+
+    public void ActivateSpeedBoost()
+    {
+        StartCoroutine(SpeedBoostCooldown());
+    }
+
+    IEnumerator SpeedBoostCooldown()
+    {
+        speed = speed * 2;
+        yield return new WaitForSeconds(speedBoostDuration);
+        speed = 0.1f;
     }
     private void GrowSnake()
     {
         // Instantiate body instance and
         // add it to the list
         GameObject body = Instantiate(BodyPrefab);
+        //rend.material.color = newColor;
         BodyParts.Add(body);
+    }
+
+    private void GameOver()
+    {
+        SceneManager.LoadScene(0);
+        //Application.Quit();
     }
 
 
@@ -103,17 +143,46 @@ public class SnakeController : MonoBehaviour
         //BodySpeed = BodySpeed + 1;
         if (other.gameObject.CompareTag("Speedboost"))
         {
-            speed = speed * 2;
+            ActivateSpeedBoost();
             Destroy(other.gameObject);
-            GrowSnake();
+            /*boosting = true;
+            speed = 0.3f;
+            Destroy(other.gameObject);
+            GrowSnake();*/
         }
 
         if (other.gameObject.CompareTag("ColorChanger"))
         {
-            rend.material.color = newColor;
-            //Brend.material.color = newColor;
+            count++;
+
             Destroy(other.gameObject);
+
             GrowSnake();
+
+            rend.material.color = newColor;
+            foreach (GameObject body in BodyParts)
+            {
+                body.GetComponent<Renderer>().material.color = newColor;
+
+            }
+
+        }
+
+        if (other.gameObject.CompareTag("ColorRed"))
+        {
+            count++;
+            
+            Destroy(other.gameObject);
+            
+            GrowSnake();
+
+            rend.material.color = newColorR;
+            foreach (GameObject body in BodyParts)
+            {
+                body.GetComponent<Renderer>().material.color = newColorR;
+
+            }
+
         }
 
 
