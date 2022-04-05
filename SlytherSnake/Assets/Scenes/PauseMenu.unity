@@ -302,7 +302,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d98687442b70b7e47881597662005a99, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a53359a3eaed16848911e443687d5baa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -515,7 +515,7 @@ GameObject:
   - component: {fileID: 1976148507}
   - component: {fileID: 1976148506}
   m_Layer: 5
-  m_Name: startButton
+  m_Name: HomeBUtton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -535,10 +535,10 @@ RectTransform:
   m_Father: {fileID: 1289270663}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.31300002, y: 0.16735479}
-  m_AnchorMax: {x: 0.69011337, y: 0.29840824}
-  m_AnchoredPosition: {x: 2, y: 8.5}
-  m_SizeDelta: {x: -1.066742, y: 0.6210785}
+  m_AnchorMin: {x: 0.08751889, y: 0.22356987}
+  m_AnchorMax: {x: 0.45100003, y: 0.358}
+  m_AnchoredPosition: {x: 5.5, y: -0.5}
+  m_SizeDelta: {x: 9.933258, y: -2.3789215}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1976148506
 MonoBehaviour:
