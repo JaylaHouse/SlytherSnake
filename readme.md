@@ -174,13 +174,21 @@ ___
 > - Explore more power ups that can be implemented in the game.
 > - Improve the color change power up so that it can change the snake whole body.
 > - Implement a stop watch on the speed power up.
-___
 
 ### Jayla:
 > - Making the snake character and rigging it with a proper skeleton.
 > - Create Variation in the snake envonment so that there are hazards the player needs to avoid. 
 > - Creating a StartScreen
 ___
+
+## SPRINT 3: Next Steps
+
+
+### Leonardo:
+> - Create two more additional levels to create more diversified gameplay.
+> - Program a way for the player to lose.
+> - Implemenent gameplay mechanics that the player can interact with in the levels.
+
 
 ## Acknowledgements
 Give credit here.
