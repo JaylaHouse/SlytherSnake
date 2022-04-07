@@ -1,7 +1,6 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class SnakeController : MonoBehaviour
 {
@@ -13,10 +12,8 @@ public class SnakeController : MonoBehaviour
 
     public float BodySpeed;
     public int Gap;
-    public int count;
     public float speed;
     Color newColor;
-    Color newColorR;
     Renderer rend;
     //Renderer Brend;
 
@@ -38,7 +35,6 @@ public class SnakeController : MonoBehaviour
         Invoke("GrowSnake", 2);
         BodySpeed = 1f;
         Gap = 10;
-        count = 1;
         speed = 0.1f;
         /*boostTimer = 0;
         boosting = false;
@@ -47,7 +43,6 @@ public class SnakeController : MonoBehaviour
         rend = GetComponent<Renderer>();
         //Brend = GameObject.FindGameObjectWithTag("BodyPart").GetComponent<Renderer>();
         newColor = Color.blue;
-        newColorR = Color.red;
     }
 
     void Update()
@@ -98,11 +93,6 @@ public class SnakeController : MonoBehaviour
             spherePos.y = 0;
         }
 
-        if(count > 3)
-        {
-            GameOver();
-        }
-
        
 
         //transform.Translate(Vector3.forward * Time.deltaTime * BodySpeed);
@@ -124,14 +114,7 @@ public class SnakeController : MonoBehaviour
         // Instantiate body instance and
         // add it to the list
         GameObject body = Instantiate(BodyPrefab);
-        //rend.material.color = newColor;
         BodyParts.Add(body);
-    }
-
-    private void GameOver()
-    {
-        SceneManager.LoadScene(0);
-        //Application.Quit();
     }
 
 
@@ -153,36 +136,10 @@ public class SnakeController : MonoBehaviour
 
         if (other.gameObject.CompareTag("ColorChanger"))
         {
-            count++;
-
-            Destroy(other.gameObject);
-
-            GrowSnake();
-
             rend.material.color = newColor;
-            foreach (GameObject body in BodyParts)
-            {
-                body.GetComponent<Renderer>().material.color = newColor;
-
-            }
-
-        }
-
-        if (other.gameObject.CompareTag("ColorRed"))
-        {
-            count++;
-            
+            //Brend.material.color = newColor;
             Destroy(other.gameObject);
-            
             GrowSnake();
-
-            rend.material.color = newColorR;
-            foreach (GameObject body in BodyParts)
-            {
-                body.GetComponent<Renderer>().material.color = newColorR;
-
-            }
-
         }
 
 

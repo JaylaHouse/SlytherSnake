@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: b48f7a3d476f4c54eb18684cd0e36ea1
+=======
+guid: 2a97abdd302fbb144b4fa858bbfe7767
+>>>>>>> SNAK-59-change-the-snake-whole-body-color
 PrefabImporter:
   externalObjects: {}
   userData: 

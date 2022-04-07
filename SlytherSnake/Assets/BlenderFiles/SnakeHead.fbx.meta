@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 0bb1f214a94719d439fa2b60049aca9b
+=======
+guid: be7ef46101bcb5249bb05045c938356b
+>>>>>>> SNAK-59-change-the-snake-whole-body-color
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
