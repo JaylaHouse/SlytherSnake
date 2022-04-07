@@ -1,13 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-guid: 96476f3a8548f8d438cfbb8a3b9b950d
-=======
-guid: 8653e1248ad73c943b16174ec61b182f
->>>>>>> SNAK-46-create-startscreen-and-endscreen
-=======
-guid: e155e364ee289c84c94e576a246eb188
->>>>>>> SNAK-59-change-the-snake-whole-body-color
+guid: 74c6e36a3ff0da8409e872bf5d02df3a
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
