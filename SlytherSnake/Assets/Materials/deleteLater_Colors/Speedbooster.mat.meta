@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 57fe8472ed941524e86e2d458b5e5bb0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+=======
+guid: da50fc4a4cbb23d4fa7f3d2e873a9760
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+>>>>>>> SNAK-59-change-the-snake-whole-body-color
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
