@@ -179,6 +179,21 @@ ___
 > - Making the snake character and rigging it with a proper skeleton.
 > - Create Variation in the snake envonment so that there are hazards the player needs to avoid. 
 > - Creating a StartScreen
+
+
+___
+
+## Sprint 2
+
+### Individual Contributions
+#### Leonardo:
+> - SNAK-44 Create full LevelOne. [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/4cd3902016aa091c09d14dd501069908ef272f3a)
+> - SNAK-45 Create full LevelTwo [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/6306ed075d2d9791698178934041c962f9f3d3c3)
+> - SNAK-52 Add music, custom textures, and improved level design [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/374eafa11a7988cdc5471ba7861c5b6b57684e60)
+> - SNAK-49 Connect levels via in-game progession [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/633b16683f0d4e8542688c0e9da9b7d5b4c18ed6)
+
+
+
 ___
 
 ## SPRINT 3: Next Steps
