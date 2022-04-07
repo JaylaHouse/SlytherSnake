@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-    public float timeValue = 20;
+    public float timeValue = 60; // a minute to beat the level
     public Text timeText;
     public int count = 0;
    
