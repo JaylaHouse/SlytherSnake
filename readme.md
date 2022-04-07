@@ -189,6 +189,11 @@ ___
 > - Program a way for the player to lose.
 > - Implemenent gameplay mechanics that the player can interact with in the levels.
 
+### Lauren:
+> - Add more unit testing for preexisting and new code such as the levels
+> - Add customization to levels 3 and 4
+> - Assist in making the snake character look more realistic using snake head and skins
+
 
 ## Acknowledgements
 Give credit here.
