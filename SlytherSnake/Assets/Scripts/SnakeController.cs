@@ -98,7 +98,7 @@ public class SnakeController : MonoBehaviour
             spherePos.y = 0;
         }
 
-        if(count > 3)
+        if(count > 5)
         {
             GameOver();
         }
@@ -117,7 +117,7 @@ public class SnakeController : MonoBehaviour
     {
         speed = speed * 2;
         yield return new WaitForSeconds(speedBoostDuration);
-        speed = 0.1f;
+        speed = 0.2f;       //changed from .1f to .2f becayse leos area is bigger so needs to go faster
     }
     private void GrowSnake()
     {

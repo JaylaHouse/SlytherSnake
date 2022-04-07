@@ -1,10 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/LevelOne.unity
+- path: Assets/Scenes/StartMenu.unity
   isLoaded: 1
   isActive: 1
-=======
-- path: Assets/Scenes/PrototypeLevel.unity
-  isLoaded: 0
-  isActive: 0
->>>>>>> SNAK-59-change-the-snake-whole-body-color
