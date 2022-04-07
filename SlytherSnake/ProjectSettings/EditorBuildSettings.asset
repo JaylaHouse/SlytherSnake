@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: b96e509a93752be408d547a5571d3673
+  - enabled: 1
+    path: Assets/Scenes/PauseMenu.unity
+    guid: 8b475a7debd3dc141adf97a6b933c45b
   m_configObjects: {}

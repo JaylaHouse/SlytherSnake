@@ -190,6 +190,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BodySpeed: 1
   Gap: 10
+  count: 0
+  speed: 0
+  sceneName: PauseMenu
   BodyPrefab: {fileID: 3421640638604084777, guid: 9827b0e20004fd94fb93805c76c2fbf6,
     type: 3}
 --- !u!54 &5888667878283116295

@@ -18,6 +18,7 @@ public class SnakeController : MonoBehaviour
     Color newColor;
     Color newColorR;
     Renderer rend;
+    public string sceneName;
     //Renderer Brend;
 
 
@@ -39,7 +40,7 @@ public class SnakeController : MonoBehaviour
         BodySpeed = 1f;
         Gap = 10;
         count = 1;
-        speed = 0.1f;
+        speed = 0.2f;
         /*boostTimer = 0;
         boosting = false;
         moving = false;*/
@@ -98,7 +99,7 @@ public class SnakeController : MonoBehaviour
             spherePos.y = 0;
         }
 
-        if(count > 5)
+        if(count > 3)
         {
             GameOver();
         }
@@ -117,7 +118,7 @@ public class SnakeController : MonoBehaviour
     {
         speed = speed * 2;
         yield return new WaitForSeconds(speedBoostDuration);
-        speed = 0.2f;       //changed from .1f to .2f becayse leos area is bigger so needs to go faster
+        speed = 0.2f;       //changed from .1f to .25f becayse leos area is bigger so needs to go faster (Change made by Jayla)
     }
     private void GrowSnake()
     {
@@ -130,7 +131,7 @@ public class SnakeController : MonoBehaviour
 
     private void GameOver()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(sceneName);
         //Application.Quit();
     }
 
