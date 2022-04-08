@@ -232,7 +232,7 @@ ___
 - 
 ### What can I do to improve? 
 ##### Steve:
-- What I can do to improve is be more creative with the game power ups and be more knowledgable on how to use Gitkraken.
+- What I can do to improve is be more creative with the game power ups and be more knowledgeable on how to use Gitkraken.
 ##### Shizene:
 - 
 ##### Leonardo: 
@@ -245,6 +245,7 @@ ___
 ### What might be impending us from performing better?
 - We haven't been able to meet as a group this sprint to check base with each other. 
 - Some of us still have a little bit of an issue with GitKracken, but it is getting much better.
+- what might be impeding us are exams/midterms that are going on in our other classes which take our focus away from the project.
 ___
 
 ## SPRINT 3: Next Steps
