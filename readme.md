@@ -197,7 +197,49 @@ ___
 > - SNAK-63 Create unit tests for EditMode [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/e79c04d1a5c8d5eca903f3149fa214df6d99412b)
 > - SNAK-64 Add vegetation to level 2 [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/b7933a548f7903370ead790d1f9e7c14063f9225)
 
+#### Jayla:
+> - SNAK-47 create pause screen and tutorial screen [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/bd2ab8a64b94dacf7c5bccb6b9e79d75b2fffe4a)
+> - SNAK-48 implement all the UI into the game [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/1d047e7ccdf0fa84b8067061fa96ac7067c5428c) 
+> - SNAK-46 Create start screen and end game screen [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/bd2ab8a64b94dacf7c5bccb6b9e79d75b2fffe4a)
+> - GameUI implement start screens so that they transfer betwwen levels [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/ab9a95ff28824981255f673a85d8e0d80d068036)
+___
 
+## Sprint 1 Retrospective
+
+### What went well?
+
+#### Team:
+- We all did great with using bit bucket to work on our own features as well as merge our work together effectively. 
+- 
+- 
+-  
+- 
+#### Individual:
+##### Steve:
+-   
+##### Jayla:
+- What went well was being able to merge my features with everyone elses and not have any compiler issues or clashes
+##### Shizene:
+-
+##### Lauren:
+- 
+##### Leonardo:
+- 
+### What can I do to improve? 
+##### Steve:
+- 
+##### Shizene:
+- 
+##### Leonardo: 
+- 
+##### Jayla:
+- I can be more effective with my time management when it comes to getting my task done in a timely manner. 
+##### Lauren:
+- 
+
+### What might be impending us from performing better?
+- We havent been able to meet as a group this sprint to check base with each other. 
+- 
 
 ___
 
@@ -213,6 +255,11 @@ ___
 > - Add more unit testing for preexisting and new code such as the levels
 > - Add customization to levels 3 and 4
 > - Assist in making the snake character look more realistic using snake head and skins
+
+### Lauren:
+> - Editting/ polishing the snake movements and body parts to work more smoothly with player input.
+> - Edditing the scripts to model SOLID principles.
+> - Implement and creater a better looking powerups and character.
 
 
 ## Acknowledgements
