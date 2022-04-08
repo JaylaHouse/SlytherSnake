@@ -204,7 +204,7 @@ ___
 > - GameUI implement start screens so that they transfer betwwen levels [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/ab9a95ff28824981255f673a85d8e0d80d068036)
 ___
 
-## Sprint 1 Retrospective
+## Sprint 2 Retrospective
 
 ### What went well?
 
