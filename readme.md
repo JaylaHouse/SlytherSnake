@@ -262,7 +262,7 @@ ___
 > - Add customization to levels 3 and 4
 > - Assist in making the snake character look more realistic using snake head and skins
 
-### Lauren:
+### Jayla:
 > - Editting/ polishing the snake movements and body parts to work more smoothly with player input.
 > - Edditing the scripts to model SOLID principles.
 > - Implement and creater a better looking powerups and character.
