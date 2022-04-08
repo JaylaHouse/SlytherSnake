@@ -215,7 +215,7 @@ ___
 
 #### Team:
 - We all did great with using bit bucket to work on our own features as well as merge our work together effectively. 
-- 
+- We helped each other solve problems.
 - 
 -  
 - 
@@ -227,7 +227,7 @@ ___
 ##### Shizene:
 -
 ##### Lauren:
-- 
+- Customization of level 2 was fun and a rather great learning experience.
 ##### Leonardo:
 - 
 ### What can I do to improve? 
@@ -240,10 +240,11 @@ ___
 ##### Jayla:
 - I can be more effective with my time management when it comes to getting my task done in a timely manner. 
 ##### Lauren:
-- 
+- I need to focus more thoroughly on my tasks as well as work on my time management skills.
 
 ### What might be impending us from performing better?
 - We haven't been able to meet as a group this sprint to check base with each other. 
+- Some of us still have a little bit of an issue with GitKracken, but it is getting much better.
 ___
 
 ## SPRINT 3: Next Steps
