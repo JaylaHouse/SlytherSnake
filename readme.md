@@ -216,7 +216,7 @@ ___
 #### Team:
 - We all did great with using bit bucket to work on our own features as well as merge our work together effectively. 
 - We helped each other solve problems.
-- 
+- We were able to get all our tasks implemented, merge, and done.
 -  
 - 
 #### Individual:
