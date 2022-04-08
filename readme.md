@@ -192,6 +192,11 @@ ___
 > - SNAK-52 Add music, custom textures, and improved level design [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/374eafa11a7988cdc5471ba7861c5b6b57684e60)
 > - SNAK-49 Connect levels via in-game progession [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/633b16683f0d4e8542688c0e9da9b7d5b4c18ed6)
 
+#### Lauren:
+> - SNAK-62 Create unit tests for PlayMode for SnakeController [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/af46f3f2f4a16bad8a2966d854a48822fdf78911)
+> - SNAK-63 Create unit tests for EditMode [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/e79c04d1a5c8d5eca903f3149fa214df6d99412b)
+> - SNAK-64 Add vegetation to level 2 [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/b7933a548f7903370ead790d1f9e7c14063f9225)
+
 
 
 ___
