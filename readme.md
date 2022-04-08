@@ -229,14 +229,14 @@ ___
 ##### Lauren:
 - Customization of level 2 was fun and a rather great learning experience.
 ##### Leonardo:
-- 
+- Merging the working branches together went well. Our respective work complimented each other.
 ### What can I do to improve? 
 ##### Steve:
 - What I can do to improve is be more creative with the game power ups and be more knowledgeable on how to use Gitkraken.
 ##### Shizene:
 - 
 ##### Leonardo: 
-- 
+- I need to explore more efficient options of how to get tasks done.
 ##### Jayla:
 - I can be more effective with my time management when it comes to getting my task done in a timely manner. 
 ##### Lauren:
@@ -246,6 +246,7 @@ ___
 - We haven't been able to meet as a group this sprint to check base with each other. 
 - Some of us still have a little bit of an issue with GitKracken, but it is getting much better.
 - what might be impeding us are exams/midterms that are going on in our other classes which take our focus away from the project.
+- Proper communication of responsibilities might be impending us a bit.
 ___
 
 ## SPRINT 3: Next Steps
