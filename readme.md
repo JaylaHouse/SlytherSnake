@@ -202,6 +202,11 @@ ___
 > - SNAK-48 implement all the UI into the game [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/1d047e7ccdf0fa84b8067061fa96ac7067c5428c) 
 > - SNAK-46 Create start screen and end game screen [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/bd2ab8a64b94dacf7c5bccb6b9e79d75b2fffe4a)
 > - GameUI implement start screens so that they transfer betwwen levels [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/ab9a95ff28824981255f673a85d8e0d80d068036)
+
+### Steve:
+> - SNAK-56 Implement a timer on the snake when the speedup is activated [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/6a21ac7e67210bc9127ce51ef0d7d65236f86019)
+> - SNAK-59 Change the snake whole body color after picking activating color change [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/7fe036fdc6cb0d35bd78b8046f30c931ccfa8da3)
+> - SNAK-61 Add a timer on the screen to be visible to the user [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/11b0d6e6db9e8df995e27cccafa051709069b1f1)
 ___
 
 ## Sprint 2 Retrospective
@@ -216,7 +221,7 @@ ___
 - 
 #### Individual:
 ##### Steve:
--   
+- What went well is me completing my given task without any blocks or help from anybody.  
 ##### Jayla:
 - What went well was being able to merge my features with everyone elses and not have any compiler issues or clashes
 ##### Shizene:
@@ -227,7 +232,7 @@ ___
 - 
 ### What can I do to improve? 
 ##### Steve:
-- 
+- What I can do to improve is be more creative with the game power ups and be more knowledgable on how to use Gitkraken.
 ##### Shizene:
 - 
 ##### Leonardo: 
@@ -238,9 +243,7 @@ ___
 - 
 
 ### What might be impending us from performing better?
-- We havent been able to meet as a group this sprint to check base with each other. 
-- 
-
+- We haven't been able to meet as a group this sprint to check base with each other. 
 ___
 
 ## SPRINT 3: Next Steps
@@ -260,6 +263,11 @@ ___
 > - Editting/ polishing the snake movements and body parts to work more smoothly with player input.
 > - Edditing the scripts to model SOLID principles.
 > - Implement and creater a better looking powerups and character.
+
+### Steve:
+> - Display on the screen the amount of pick ups the snake completed in the game
+> - Increase the game time after certain amount of pick ups
+> - Add some image or logos on the screen to represent time or pick up to make the game look more interesting.
 
 
 ## Acknowledgements
