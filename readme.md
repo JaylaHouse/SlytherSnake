@@ -209,7 +209,10 @@ ___
 > - SNAK-61 Add a timer on the screen to be visible to the user [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/11b0d6e6db9e8df995e27cccafa051709069b1f1)
 
 ### Shizene: 
-> - 
+> - SNAK-57 Adding Respwaning Script [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/fe1561d40765b3687b0ebe3088739ec7ccc1c7ef)
+> - SNAK-58 Create level 3 [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/06d480637461e5446ec05dc11c7e3fd128e2b852)
+> - SNAK-60 learn to use blender to create more appealing powerups [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/06db09f016196d8c0e4bf0415791e9015db7837c)
+
 ___
 
 ## Sprint 2 Retrospective
@@ -276,7 +279,9 @@ ___
 > - Add some image or logos on the screen to represent time or pick up to make the game look more interesting.
 
 ### Shizene:
-> - 
+> - Work on the reswaping script.
+> - Use blender to create more appealing powerup
+> - Implement difficulties in level 3
 
 ## Acknowledgements
 Give credit here.
