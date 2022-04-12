@@ -207,6 +207,9 @@ ___
 > - SNAK-56 Implement a timer on the snake when the speedup is activated [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/6a21ac7e67210bc9127ce51ef0d7d65236f86019)
 > - SNAK-59 Change the snake whole body color after picking activating color change [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/7fe036fdc6cb0d35bd78b8046f30c931ccfa8da3)
 > - SNAK-61 Add a timer on the screen to be visible to the user [commit](https://bitbucket.org/cs3398-s22-cardassians/slythersnake/commits/11b0d6e6db9e8df995e27cccafa051709069b1f1)
+
+### Shizene: 
+> - 
 ___
 
 ## Sprint 2 Retrospective
@@ -225,7 +228,7 @@ ___
 ##### Jayla:
 - What went well was being able to merge my features with everyone elses and not have any compiler issues or clashes
 ##### Shizene:
--
+- What went well was being able to create level 3.
 ##### Lauren:
 - Customization of level 2 was fun and a rather great learning experience.
 ##### Leonardo:
@@ -234,7 +237,7 @@ ___
 ##### Steve:
 - What I can do to improve is be more creative with the game power ups and be more knowledgeable on how to use Gitkraken.
 ##### Shizene:
-- 
+- What I can do is improve my respwaing code so we can apply it for all our levels. 
 ##### Leonardo: 
 - I need to explore more efficient options of how to get tasks done.
 ##### Jayla:
@@ -272,6 +275,8 @@ ___
 > - Increase the game time after certain amount of pick ups
 > - Add some image or logos on the screen to represent time or pick up to make the game look more interesting.
 
+### Shizene:
+> - 
 
 ## Acknowledgements
 Give credit here.
