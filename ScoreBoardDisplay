@@ -1,0 +1,40 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class score : MonoBehaviour
+{
+    public static score instance;
+
+    public Text scoreText;
+    public Text limitText;
+    int scores = 0;
+    int limit = 3;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        scoreText.text = "SCORE: " + scores.ToString();
+        limitText.text = "LIMIT: " + limit.ToString();
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    
+    public void AddPoint()
+    {
+        scores += 1;
+        scoreText.text = "SCORE: " + scores.ToString();
+    }
+}
