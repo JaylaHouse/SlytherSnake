@@ -67,6 +67,7 @@
     <Compile Include="Assets\CameroFollow.cs" />
     <Compile Include="Assets\Prefabs\SnakePackage\CameraController.cs" />
     <Compile Include="Assets\Prefabs\SnakePackage\HeadCollision.cs" />
+    <Compile Include="Assets\Prefabs\SnakePackage\SnakeCollisions.cs" />
     <Compile Include="Assets\Prefabs\SnakePackage\TestMovement.cs" />
     <Compile Include="Assets\Timer.cs" />
     <Reference Include="UnityEngine.Purchasing">

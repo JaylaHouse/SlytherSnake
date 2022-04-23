@@ -1,15 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class TestMovement : MonoBehaviour {
 
 	public List<Transform> bodyParts = new List<Transform>();
 	public float minDistance = 0.015f;
-	public float speed = 1.0f;
+	public float speed = 5.0f;
 	public float rotationSpeed = 50.0f;
 	public GameObject bodyPartPrefab;
 	public int startBodySize = 1;
+	public string sceneName;
+	Color newColor;
+	Color newColorR;
+	Renderer rend;
 
 
 	//movement variables
@@ -21,19 +26,10 @@ public class TestMovement : MonoBehaviour {
 	private Quaternion startingRotation;
 	private float angel = 90;
 	private float fTurnRate = 90.0f;
-	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	//swipe variables with touch
-	private Vector2 firstPressPosition;
-	private Vector2 secondPressPosition;
-	private Vector2 swipeDirection;
 	//swipe variables with mouse
 	private Vector2 firstPressPos;
 	private Vector2 secondPressPos;
 	private Vector2 currentSwipe;
-	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	//rock instance position bounds
-	private int boardMinDistance = -8;
-	private int boardMaxDistance = 8;
 
 	//start function
 	void Start(){
@@ -47,7 +43,9 @@ public class TestMovement : MonoBehaviour {
 		for(int i=0; i<startBodySize - 1; i++){
 			addBodyPart();
 		}
-
+		newColor = Color.blue;
+		newColorR = Color.red;
+		rend = GetComponent<Renderer>();
 
 	}
      
@@ -121,7 +119,7 @@ public class TestMovement : MonoBehaviour {
      public void addBodyPart(){
 		if(bodyParts.Count != 0){
 			//instantiate after last bodypart in the list
-			Transform newPart = (Instantiate(bodyPartPrefab, bodyParts[bodyParts.Count - 1].position, bodyParts[bodyParts.Count -1].rotation) as GameObject).transform;
+			Transform newPart = (Instantiate(bodyPartPrefab, bodyParts[bodyParts.Count -1].position, bodyParts[bodyParts.Count -1].rotation) as GameObject).transform;
 			//set parent to be this transform
 			newPart.SetParent(transform);
 			//add the new part to the list
@@ -140,15 +138,7 @@ public class TestMovement : MonoBehaviour {
 	}
 
 	//trigger wall collision
-	void OnTriggerEnter(Collider other){
-		//Debug.Log("Triggredd");
-		//collide with wall or rock
-		if(other.gameObject.CompareTag("Wall") || other.gameObject.CompareTag("Rock")){
-			Debug.Log("Triggred With Wall");
-			//goto lose screen
-		}
-	}
-
+	
 	//collision 
 	void OnCollisionEnter(Collision collision){
 		Debug.Log("Collision");

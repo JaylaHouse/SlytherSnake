@@ -9,7 +9,7 @@ public class SceneSwitch : MonoBehaviour
     public string sceneName;
 
     void OnTriggerEnter(Collider other){
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Head"))
         {
             SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
             Debug.Log("Collided");

@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-    public float timeValue = 400f; // a minute to beat the level
+    public float timeValue; // a minute to beat the level
     public Text timeText;
     public int count = 0;
    
     void Start()
     {
-         
+        timeValue = 1000;
     }
 
     // Update is called once per frame
