@@ -6,17 +6,17 @@ public class SnakeCollisions : MonoBehaviour
 {
 	private float speedBoostDuration;
 	public TestMovement tm;
-    // Start is called before the first frame update
-    void Start()
-    {
+	// Start is called before the first frame update
+	void Start()
+	{
 		speedBoostDuration = 3.0f;
-    }
+	}
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	// Update is called once per frame
+	void Update()
+	{
+
+	}
 
 	public void ActivateSpeedBoost()
 	{
@@ -27,14 +27,13 @@ public class SnakeCollisions : MonoBehaviour
 	{
 		tm.speed = tm.speed * 2;
 		yield return new WaitForSeconds(speedBoostDuration);
-		tm.speed = 4.5f;       //changed from .1f to .25f becayse leos area is bigger so needs to go faster (Change made by Jayla)
+		tm.speed = 3f;       //changed from .1f to .25f becayse leos area is bigger so needs to go faster (Change made by Jayla)
 	}
 
 	void OnTriggerEnter(Collider other)
 	{
 		//Debug.Log("Triggredd");
 		//collide with wall or rock
-		Debug.Log("regular Trigger");
 		if (other.gameObject.CompareTag("Speedboost"))
 		{
 			//ActivateSpeedBoost();
@@ -85,8 +84,12 @@ public class SnakeCollisions : MonoBehaviour
 
 			Destroy(other.gameObject);
 			tm.addBodyPart();
+		}
 
+		//collision 
+		void OnCollisionEnter(Collision collision)
+		{
+			Debug.Log("Collision");
 		}
 	}
-
 }

@@ -7,7 +7,7 @@ public class TestMovement : MonoBehaviour {
 
 	public List<Transform> bodyParts = new List<Transform>();
 	public float minDistance = 0.015f;
-	public float speed = 5.0f;
+	public float speed = 3f;
 	public float rotationSpeed = 50.0f;
 	public GameObject bodyPartPrefab;
 	public int startBodySize = 1;
