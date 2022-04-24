@@ -48,19 +48,7 @@ public class SnakeCollisions : MonoBehaviour
 
 			Destroy(other.gameObject);
 			tm.addBodyPart();
-
-			/*tm.rend.material.color = tm.newColor;
-
-			for (int i = 1; i < bodyParts.Count; i++)
-			{
-				currentBodyPart = tm.bodyParts[i];
-				prevBodyPart = tm.bodyParts[i - 1];
-				currentBodyPart.GetComponent<Renderer>().material.color = tm.newColor;
-				prevBodyPart.GetComponent<Renderer>().material.color = tm.newColor;
-			}
-
-
-			tm.addBodyPart();*/
+			tm.ChangeColor();
 		}
 
 		if (other.gameObject.CompareTag("ColorRed"))
@@ -69,13 +57,7 @@ public class SnakeCollisions : MonoBehaviour
 
 			Destroy(other.gameObject);
 			tm.addBodyPart();
-
-			/*rend.material.color = newColorR;
-			foreach (GameObject body in BodyParts)
-			{
-				body.GetComponent<Renderer>().material.color = newColorR;
-
-			}*/
+			tm.ChangeColorRed();
 
 		}
 
@@ -86,10 +68,5 @@ public class SnakeCollisions : MonoBehaviour
 			tm.addBodyPart();
 		}
 
-		//collision 
-		void OnCollisionEnter(Collision collision)
-		{
-			Debug.Log("Collision");
-		}
 	}
 }

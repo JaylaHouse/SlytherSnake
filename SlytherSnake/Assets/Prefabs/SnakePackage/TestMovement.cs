@@ -144,4 +144,23 @@ public class TestMovement : MonoBehaviour {
 		Debug.Log("Collision");
 	}
 
+	public void ChangeColor() {
+
+		foreach (Transform body in bodyParts)
+		{
+			body.GetComponent<Renderer>().material.color = newColor;
+
+		}
+	}
+
+	public void ChangeColorRed()
+    {
+		foreach (Transform body in bodyParts)
+		{
+			body.GetComponent<Renderer>().material.color = newColorR;
+
+		}
+
+	}
+
 }
