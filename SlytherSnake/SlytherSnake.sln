@@ -1,11 +1,6 @@
 ﻿
-<<<<<<< HEAD
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-=======
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
->>>>>>> 7e78eb45f216bc85d89093bff58d3c1c12b4e238
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{9E86EE9C-4F7D-113C-6CF3-0E4245E74925}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripts", "Scripts.csproj", "{FEB10A27-FABC-165D-06CC-FB8DC9894993}"
