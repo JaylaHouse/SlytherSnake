@@ -9,9 +9,12 @@ public class SceneSwitch : MonoBehaviour
     public string sceneName;
 
     void OnTriggerEnter(Collider other){
-
-        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
-        Debug.Log("Collided");
+        if (other.gameObject.CompareTag("Head"))
+        {
+            SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+            Debug.Log("Collided");
+        }
+        
 
     }
 

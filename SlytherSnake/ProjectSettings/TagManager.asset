@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ColorRed
+  - ColorChanger
+  - pickUp
+  - Speedboost
+  - SpeedTu
+  - ColorChangeTut
+  - pickUpTut
+  - transitionCube
+  - FindEndTut
+  - BodyPart
+  - Head
+  - dialog1
   layers:
   - Default
   - TransparentFX
