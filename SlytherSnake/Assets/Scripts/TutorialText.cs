@@ -47,6 +47,10 @@ public class TutorialText : MonoBehaviour
             timeText.text = "Find the transition cube.";
         }
 
+        if (other.gameObject.CompareTag("dialog1")) {
+            timeText.text = "Welcome to the snow biome!";
+        }
+
     }
 
 

@@ -13,6 +13,9 @@ TagManager:
   - pickUpTut
   - transitionCube
   - FindEndTut
+  - BodyPart
+  - Head
+  - dialog1
   layers:
   - Default
   - TransparentFX
