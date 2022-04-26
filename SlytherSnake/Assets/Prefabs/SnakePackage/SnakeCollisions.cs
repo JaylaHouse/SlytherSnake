@@ -27,7 +27,7 @@ public class SnakeCollisions : MonoBehaviour
 	{
 		tm.speed = tm.speed * 2;
 		yield return new WaitForSeconds(speedBoostDuration);
-		tm.speed = 3f;       //changed from .1f to .25f becayse leos area is bigger so needs to go faster (Change made by Jayla)
+		tm.speed = 5f;       //changed from .1f to .25f becayse leos area is bigger so needs to go faster (Change made by Jayla)
 	}
 
 	void OnTriggerEnter(Collider other)
